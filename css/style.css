@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+}
+.navbar{
+    height: 70px;
+    background-color: white;
+    width: 100%;
+}
+.navlogo{
+    float: left;
+    margin: 10px;
+}
+.navlogo img{
+    height: 50px;
+    border-radius: 50%;
+}
+.navlinks{
+    height: 50px;
+    margin: 10px;
+    float: right;
+}
+.navs, .active{
+    display: inline-flex;
+    padding: 0px 10px 0px 10px;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+.active{
+    background-color: grey;
+}
+.navs:hover{
+    background-color: grey;
+    transition: 0.3s;
+}
+.active:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
